@@ -1,0 +1,1172 @@
+.angellist{
+    background-color: rgb(10, 28, 27);
+    height: 1100px;
+    position: relative;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+}
+
+.header1{
+    color: white;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.dropdown{
+    box-sizing: border-box;
+    background-color: rgb(15, 43, 41);
+    border-radius: 30px;
+    margin-top: 15px;
+    justify-self: center;
+    width: 560px;
+    height: 55px;
+    margin-left: 25%; 
+}
+
+.dropdown3:hover .dropdown-content{
+    opacity: 1;
+    transition-duration: 0.6s;
+    
+
+}
+
+.dropdown3{
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+
+.dropdown1{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.Products3{
+    width:15px;
+    padding-top: 8px;
+}
+.products:hover{
+    background-color: white;
+    color: black;
+    transition-duration: 0.6s;
+}
+.products{
+    box-sizing: border-box;
+    width: 130px;
+    height: 40px;
+    border-radius: 30px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    margin: 8px;
+    justify-content: center;
+}
+
+.products:hover .Products2{
+    transform: rotate(-180deg); 
+    color: black;
+    transition: transform 0.3s ease; 
+    transform-origin: center center;
+    
+
+}
+
+.Products2{
+    color: white;
+    padding-top: 6px;
+    padding-left: 5px;
+    transition: transform 0.1s ease-in-out; 
+    
+}
+
+
+
+.dropdown-content{
+    box-sizing: border-box;
+    border: 2px solid white;
+    background-color: white;
+    width: 850px;
+    position: absolute;
+    border-radius: 5px;
+    padding-top: 40px;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 100px;
+    top: 10%;
+    left: 20%;
+    opacity: 0;
+    
+}
+
+
+
+.fund_administration1{
+    color: rgb(94, 93, 93);
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+
+}
+.fund_administration2:hover{
+    color: rgb(143, 142, 142);
+}
+.fund_administration2{
+    padding-top: 10px;
+}
+
+.fund_administration{
+    display: flex;
+    flex-direction: column;
+}
+
+.invester{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+}
+
+.invester1{
+    display: flex;
+    flex-direction: column;
+}
+.Agentic{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.product_suites{
+    padding-left: 100px;
+
+}
+.product_suites1{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.product_suites3:hover{
+color: rgb(143, 142, 142);
+}
+.product_suites3{
+    font-size: 14px;
+    padding-top: 2px;
+    
+}
+
+.product_suites2{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.product_suites4{
+    font-size: 13px;
+    padding-top: 8px;
+    width:200px;
+    color: rgb(143, 142, 142);
+
+    
+}
+
+.product_suites5{
+    padding-left: 20px;
+}
+
+.product_suites6{
+    width:70px;
+    height: 70px;
+    border-radius: 5px;
+}
+
+.startups{
+    position: absolute;
+    left: 4%;
+    top: 80%;
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    color: rgb(143, 142, 142);
+}
+
+.startups1{
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+
+.solutions{
+    box-sizing: border-box;
+    width: 130px;
+    height: 40px;
+    border-radius: 30px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    margin: 8px;
+    justify-content: center;
+    padding-left: 5px;
+
+}
+
+.Solutions:hover{
+    background-color: white;
+    color: black;
+    transition-duration: 0.6s;
+
+
+}
+.Solutions{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 16px;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 130px;
+    height: 40px;
+    margin: 8px;
+    border-radius: 30px;
+    
+}
+
+.dropdown-content-solution{
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 5px;
+    position: absolute;
+    padding-top: 40px;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 100px;
+    top: 10%;
+    left: 20%;
+    opacity: 0;
+
+}
+
+.dropdown-content-solution{
+    display: flex;
+    flex-direction: row;
+}
+
+.Solutions2{
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: rgb(94, 93, 93);
+}
+
+.Solutions3{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+}
+
+.Solutions4{
+    width: 25px;
+    height: 25px;
+    margin-top: 5px;
+}
+
+.Solutions12{
+    padding-top: 20px;
+}
+
+.Solutions5{
+    padding-left: 15px;
+}
+
+.administration{
+    font-size: 18px;
+}
+
+.administration1{
+    padding-top: 5px;
+    width: 220px;
+    font-size: 15px;
+    color: rgb(143, 142, 142);
+}
+
+.Solutions6{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.Solutions7{
+    width: 25px;
+    height: 25px;
+    margin-top: 18px;
+}
+
+.Solutions8{
+    padding-left: 12px;
+    padding-top: 15px;
+
+}
+
+.dropdown-content-solution1{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+}
+
+.featured:hover .featured3{
+    color: rgb(143, 142, 142);
+}
+
+
+.featured{
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    padding-left: 100px;
+    padding-right: 50px;
+}
+
+.featured1{
+    font-size: 13px;
+    color: rgb(143, 142, 142);
+
+}
+
+.featured2{
+    width: 200px;
+    height: 120px;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.featured3:hover{
+color: rgb(143, 142, 142);
+
+}
+
+.featured3{
+    font-size: 15px;
+    width: 200px;
+    padding-top: 20px;
+}
+
+.solutions10:hover .dropdown-content-solution{
+    opacity: 1;
+    transition-duration: 0.6s;
+
+}
+
+.solutions10{
+    box-sizing: border-box;
+    border-radius: 30px;
+  
+}
+
+.featuredd{
+    box-sizing: border-box;
+    width: 100px;
+    padding-bottom: 50px;
+
+}
+
+.featuredd1:hover{
+    background-color: white;
+    color: black;
+    transition-duration: 0.6s;
+}
+.featuredd1{
+    box-sizing: border-box;
+    border-radius: 30px;
+    justify-items: center;
+    padding-left: 10px;
+    width: 120px;
+    margin: 8px;
+    height: 40px;
+    color: white;
+    padding-top: 8px;
+    padding-left: 28px;
+    
+
+}
+.resources1:hover{
+    background-color: white;
+    color: black;
+    transition-duration: 0.6s;
+}
+.resources1{
+    box-sizing: border-box;
+    border-radius: 30px;
+    width: 130px;
+    height: 40px;
+    margin: 8px;
+    color: white;
+    padding-left: 30px;
+    padding-top: 8px;
+    margin-left: 30px;
+}
+
+.resources1:hover .eplore{
+    opacity: 1;
+}
+
+.eplore{
+    box-sizing: border-box;
+    padding-right: 50px;
+    position: absolute;
+    left: 20%;
+    top: 10%;
+    padding-top: 50px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 5px;
+    padding-bottom: 50px;
+    opacity: 0;
+}
+
+.eplore1{
+    display: flex;
+    flex-direction: column;
+}
+
+.eplore2{
+    color: rgb(94, 93, 93);
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+}
+
+.eplore3:hover{
+    color: rgb(143, 142, 142);
+    transition-duration: 0.5s;
+}
+
+
+.eplore3{
+    padding-top: 20px;
+    font-size: 15px;
+    color: black;
+}
+
+.company{
+    display: flex;
+    flex-direction: column;
+     padding-left: 100px;
+}
+
+.company1{
+    font-size: 14px;
+    color: rgb(143, 142, 142);
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+}
+
+.company2:hover{
+    color: rgb(94, 93, 93);
+    transition-duration: 0.6s;
+}
+
+.company2{
+    font-size: 15px;
+    padding-top: 20px;
+    color: black;
+}
+
+.featured10{
+    padding-left: 120px;
+    font-size: 14px;
+    color: rgb(143, 142, 142);
+    letter-spacing: 1px;
+}
+
+.featured13{
+    width: 200px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.featured12{
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.acquired{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+
+}
+.acquired1{
+    width: 200px;
+    height: 100px;
+    border-radius: 5px;
+}
+.acquired2{
+    color: black;
+    font-size: 14px;
+    padding-top: 12px;
+    padding-left: 20px;
+}
+
+.acquired3{
+    color: rgb(143, 142, 142);
+    font-size: 14px;
+    padding-top: 5px;
+    padding-left: 20px;
+}
+
+.featured14{
+    color: black;
+    padding-left: 20px;
+    font-size: 14px;
+    padding-top: 12px;
+    width: 250px;
+}
+.featured12:hover .featured14{
+    color: rgb(143, 142, 142);
+    transition-duration: 0.5s;
+}
+
+.featured15{
+    color: rgb(143, 142, 142);
+    padding-left: 20px;
+    font-size: 13px;
+    padding-top: 5px;
+}
+
+.acquired:hover .acquired2{
+    color: rgb(143, 142, 142);
+    transition-duration: 0.5s;
+}
+
+.signin:hover{
+    background-color: rgb(9, 44, 42);
+}
+
+.signin{
+    box-sizing: border-box;
+    margin-left: 80px;
+    width: 100px;
+    height: 50px;
+    left: 90%;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-top: 5px;
+    color: white;
+    border-radius: 5px;
+    
+
+}
+.signin2:hover{
+    background-color: white;
+    color: black;
+    transition-duration: 0.5s;
+}
+.signin2{
+    box-sizing: border-box;
+    width: 130px;
+    height: 50px;
+    left: 90%;
+    padding-left: 20px;
+    padding-top: 12px;
+    margin-top: 5px;
+    color: white;
+    border-radius: 5px;
+    margin-left: 10px;
+    background-color: rgb(2, 48, 56);
+    
+
+    
+}
+
+.education{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 2%;
+    top: 20%;
+   
+}
+
+.education1{
+    width: 12px;
+    height:12px;
+    margin-top: 7px;
+}
+
+.education2{
+    padding-left: 10px;
+    color: white;
+}
+
+.education3{
+    color: white;
+    font-size: 45px;
+    width: 700px;
+    position: absolute;
+    left: 2%;
+    top: 23%;
+    line-height: 1.2;
+}
+
+.questions{
+    width: 700px;
+    height: 50px;
+    position: absolute;
+    left: 2%;
+    top: 38%;
+    border-radius: 5px;
+    padding-left: 50px;
+}
+
+.search{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 3%;
+    top:40%;
+}
+.economics{
+    position: absolute;
+    top: 50%;
+    left: 2%;
+}
+
+.fundmanager{
+    display: flex;
+    flex-direction: row;
+    
+}
+.fundmanager2{
+    width: 320px;
+    height: 350px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 10px;
+    
+}
+.fundmanager11{
+    width: 320px;
+    height: 350px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 10px;
+    
+}
+.fundmanager22{
+    width: 320px;
+    height: 350px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 10px;
+    
+}
+.fundmanager33{
+    width: 320px;
+    height: 350px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 10px;
+    
+}
+
+.fundmanager1:hover .image1{
+    transform: scale(1);
+    opacity: 0.9;
+    transition-duration: 0.5s;
+    
+}
+.image1{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+  object-fit: cover; 
+  transform: scale(1.2);
+
+}
+
+.economics1{
+    color: white;
+    padding-bottom: 15px;
+}
+
+.fundmanager1{
+    box-sizing: border-box;
+    border-top: 1px solid rgb(143, 142, 142);
+    padding-top: 5px;
+    width: 320px;
+    border-bottom: 1px solid rgb(143, 142, 142);
+    margin-left: 10px;
+    position: relative;
+    height: 480px;
+    
+}
+
+.fundmanager3{
+    padding-top: 10px;
+    color: white;
+    font-weight: 500;
+}
+.fundmanager4{
+    color: rgb(143, 142, 142)
+}
+
+.fundmanager5:hover{
+    background-color: rgba(255, 255, 255, 0.363);
+    color: black;
+    transition-duration: 0.5s;
+
+}
+
+.fundmanager1:hover .fundmanager5{
+    background-color: rgba(68, 67, 67, 0.904);
+    transition-duration: 0.5s;
+}
+.fundmanager5{
+    box-sizing: border-box;
+    width: 60px;
+    height: 60px;
+    
+    border-radius: 40px;
+    color: white;
+    background-color: rgba(59, 59, 59, 0.363);
+    position:absolute;
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+    top: 60%;
+    left: 75%;
+    justify-items: center;
+    padding-left: 17px;
+    padding-top: 8px;
+}
+
+.fundmanager11:hover .image2{
+    transform: scale(1);
+    opacity: 0.9;
+    transition-duration: 0.5s;
+    
+}
+.image2{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+  object-fit: cover; 
+  transform: scale(1.2);
+
+}
+
+.fundmanager22:hover .image3{
+    transform: scale(1);
+    opacity: 0.9;
+    transition-duration: 0.5s;
+    
+}
+.image3{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+  object-fit: cover; 
+  transform: scale(1.2);
+
+}
+
+.fundmanager33:hover .image4{
+    transform: scale(1);
+    opacity: 0.9;
+    transition-duration: 0.5s;
+    
+}
+.image4{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+  object-fit: cover; 
+  transform: scale(1.2);
+
+}
+
+.venture{
+    display: flex;
+    flex: row;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.venture2{
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+}
+.venture3{
+    box-sizing: border-box;
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+    background-color: black;
+    margin-top: 7px;
+}
+
+.Economics{
+    box-sizing: border-box;
+    width: 170px;
+    height: 30px;
+    background-color: rgb(192, 189, 189);
+    border-radius: 20px;
+    font-size: 13px;
+    padding-left: 20px;
+    padding-top: 5px;
+    margin-left: 30px;
+    margin-top: 80px;
+}
+
+.reporing2{
+    box-sizing: border-box;
+    width: 900px;
+    height: 400px;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin-left: 80px;
+    border-radius: 20px;
+}
+
+.reporing2:hover .reporting1{
+    transform: scale(1);
+    transition-duration: 0.6s;
+}
+.reporting1{
+    width: 800px;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    transform: scale(1.1);
+    
+}
+
+.venture4{
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.Reporting{
+    font-size: 40px;
+    width: 300px;
+    margin-left: 30px;
+    line-height: 1.1;
+    padding-top: 10px;
+}
+
+.investers1{
+    font-size: 15px;
+    color: rgb(66, 65, 65);
+    width: 300px;
+    padding-left: 30px;
+    padding-top: 15px;
+}
+
+.luquidity{
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 100px;
+
+}
+
+.luquidity5{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+    
+}
+
+.luquidity1{
+    box-sizing: border-box;
+    width: 12px;
+    height: 12px;
+    background-color: rgb(116, 99, 4);
+    border-radius: 10px;
+    margin-top: 6px;
+    font-size: 15px;
+}
+
+.luquidity2{
+    padding-left: 5px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.luquidity3{
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    margin: 10px;
+    
+}
+
+.luquidity44{
+    margin-left: 20px;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgb(143, 142, 142);
+}
+
+.luquidity4{
+    box-sizing: border-box;
+    border-bottom: 1px solid rgb(143, 142, 142);
+    
+}
+
+.viewarticles:hover{
+    background-color: rgb(143, 142, 142);
+    transition-duration: 0.5s;
+
+}
+.viewarticles{
+    box-sizing: border-box;
+    width: 130px;
+    height: 40px;
+    justify-self: center;
+    border-radius: 5px;
+    background-color: rgb(192, 189, 189);
+    padding-left: 12px;
+    padding-top: 8px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.luquidity6{
+    width: 380px;
+    height: 200px;
+    overflow: hidden;
+
+}
+
+.luquidity6:hover .liquidimage{
+    transform: scale(1);
+    transition-duration: 0.6s;
+}
+
+
+.liquidimage{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1.1);
+}
+
+.liquidassets{
+    box-sizing: border-box;
+    width: 150px;
+    height: 25px;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: rgb(214, 212, 212);
+    margin-top: 10px;
+    padding-left: 15px;
+
+}
+
+.liquidassets1{
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+.liquidassets11{
+    padding-top: 10px;
+    font-size: 18px;
+    width: 380px;
+}
+
+.liquidassets2{
+    padding-top: 10px;
+    font-size: 14px;
+    width: 380px;
+
+}
+
+.technicalqestion{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    height: 400px;
+    background-color: rgb(214, 212, 212);
+    margin-top: 100px;
+}
+
+.technicalqestion4{
+   padding-left: 30px;
+    padding-top: 50px;
+}
+.technicalqestion1{
+    font-size: 30px;
+    width: 600px;
+}
+
+.technicalqestion3{
+    justify-self: center;
+    width: 600px;
+    margin-left: 50px;
+}
+
+.technicalqestion2:hover{
+    background-color: rgb(192, 189, 189);
+    color: black;
+    transition-duration: 0.6s;
+}
+
+.technicalqestion2{
+    width: 170px;
+    box-sizing: border-box;
+    background-color: rgb(10, 28, 27);
+    color: white;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-top: 7px;
+    margin-top: 150px;
+
+}
+
+.contactsales{
+    padding-top: 50px;
+    padding-left: 30px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgb(143, 142, 142);
+}
+
+.contactsales2{
+    font-size: 40px;
+    color: rgb(10, 28, 27);
+    font-weight: 500;
+}
+
+.contactsales3{
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+}
+
+.contactsales4:hover{
+    background-color: rgb(143, 142, 142);
+    color: black;
+    transition-duration: 0.6s;
+
+}
+.contactsales4{
+    box-sizing: border-box;
+    width: 130px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgb(10, 28, 27);
+    color: white;
+    padding-left: 18px;
+    padding-top: 12px;
+}
+
+.contactsales5:hover{
+    background-color: rgb(143, 142, 142);
+    transition-duration: 0.6s;
+
+
+}
+.contactsales5{
+    box-sizing: border-box;
+    width: 100px;
+    height: 50px;
+    margin-left: 15px;
+    border-radius: 5px;
+    background-color: rgb(192, 189, 189);
+    padding-top: 12px;
+    padding-left: 25px;
+}
+
+.Rollingfunds{
+    padding-left: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Rollingfunds1{
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.Rollingfunds2:hover{
+    color: black;
+    transition-duration: 0.6s;
+}
+.Rollingfunds2{
+    font-size: 15px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    color: rgb(94, 93, 93);
+}
+
+.Rollingfunds3:hover{
+    color: black;
+    transition-duration: 0.6s;
+}
+
+.Rollingfunds3{
+    font-size: 14px;
+    padding-top: 10px;
+    color: rgb(94, 93, 93);
+
+}
+
+.disclosure{
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgb(143, 142, 142);
+
+}
+
+.disclosure1{
+    padding-left: 30px;
+    padding-top: 8px;
+    color: rgb(143, 142, 142);
+  }
+.disclosure2{
+    margin-left: 55%;
+}
+
+.disclosure3{
+    padding-left: 20px;
+}
+
+.disclaimer{
+    padding-top: 20px;
+    padding-left: 30px;
+    font-size: 13px;
+    color: rgb(143, 142, 142);
+
+
+}
+
+.disclaimer4{
+    padding-top: 10px;
+}
+
+.disclaimer2{
+    text-decoration: underline;
+    
+}
+
+.disclaimer5{
+    padding-top: 10px;
+
+}
